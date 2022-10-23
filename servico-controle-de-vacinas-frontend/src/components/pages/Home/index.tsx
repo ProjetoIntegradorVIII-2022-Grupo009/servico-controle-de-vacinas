@@ -1,5 +1,5 @@
-import styles from './Home.module.css'
-import SayMyName from '../layouts/SayMyName'
+import './styles.css'
+import SayMyName from '../../layouts/SayMyName'
 
 function Home() {
     const nome = 'Yana'
