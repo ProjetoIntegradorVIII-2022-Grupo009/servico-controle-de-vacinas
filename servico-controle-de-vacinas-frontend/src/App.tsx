@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './components/pages/Home'
 import Cadastro from './components/pages/Cadastro'
 import Catastrofes from './components/pages/Catastrofes'
+import DoencasTransmissiveis from './components/pages/DoencasTransmissiveis'
 
 import Container from './components/layouts/Container'
 import Navbar from './components/layouts/Navbar'
@@ -17,6 +18,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/cadastro' element={<Cadastro />} />
                 <Route path='/catastrofes' element={<Catastrofes />} />
+                <Route path='/DoencasTransmissiveis' element={<DoencasTransmissiveis />} />
         </Routes>
         </Container>
         <Footer />
