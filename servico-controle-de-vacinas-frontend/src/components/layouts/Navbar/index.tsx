@@ -12,7 +12,10 @@ function Navbar() {
                     <Link to='/cadastro'>Cadastro</Link>
                 </li>
                 <li className='item'>
-                    <Link to='/catastrofes'>Catastrofes</Link>
+                    <Link to='/catastrofes'>Catástrofes</Link>
+                </li>
+                <li className='item'>
+                    <Link to='/doencasTransmissiveis'>Doenças Transmissíveis</Link>
                 </li>
             </ul>
         </nav>
