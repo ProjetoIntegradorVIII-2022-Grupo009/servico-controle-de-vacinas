@@ -12,10 +12,19 @@ function Navbar() {
                     <Link to='/cadastro'>Cadastro</Link>
                 </li>
                 <li className='item'>
-                    <Link to='/catastrofes'>Catástrofes</Link>
+                    <Link to='/vacinas'>Vacinas</Link>
+                </li>
+                <li className='item'>
+                    <Link to='/campanhas'>Campanhas</Link>
                 </li>
                 <li className='item'>
                     <Link to='/doencasTransmissiveis'>Doenças Transmissíveis</Link>
+                </li>
+                <li className='item'>
+                    <Link to='/classificacaoEpidemiologica'>Classificação Epidemilogica</Link>
+                </li>
+                <li className='item'>
+                    <Link to='/catastrofes'>Catástrofes</Link>
                 </li>
             </ul>
         </nav>

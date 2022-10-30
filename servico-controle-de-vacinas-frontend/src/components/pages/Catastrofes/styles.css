@@ -1,0 +1,26 @@
+
+.Catastrofes h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #000;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.card {
+    width: 300px;
+    border: #000;
+    border: solid 1px
+    }
+
+.card-title{
+    width: 280px;
+    text-align: justify;
+    padding: 10px;  
+}
+
+.card-text {
+    width: 280px;
+    text-align: justify;
+    padding: 10px;
+}
