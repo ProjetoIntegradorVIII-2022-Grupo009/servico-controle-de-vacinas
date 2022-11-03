@@ -21,7 +21,7 @@ function Navbar() {
                     <Link to='/doencasTransmissiveis'>Doenças Transmissíveis</Link>
                 </li>
                 <li className='item'>
-                    <Link to='/classificacaoEpidemiologica'>Classificação Epidemilogica</Link>
+                    <Link to='/epidemiologia'>Epidemiologia</Link>
                 </li>
                 <li className='item'>
                     <Link to='/catastrofes'>Catástrofes</Link>

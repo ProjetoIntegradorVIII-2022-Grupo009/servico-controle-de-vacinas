@@ -5,7 +5,7 @@ import Vacinas from './components/pages/Vacinas'
 import Campanhas from './components/pages/Campanhas'
 import Catastrofes from './components/pages/Catastrofes'
 import DoencasTransmissiveis from './components/pages/DoencasTransmissiveis'
-import ClassificacaoEpidemiologica from './components/pages/ClassificacaoEpidemiologica'
+import Epidemiologia from './components/pages/Epidemiologia'
 
 import Container from './components/layouts/Container'
 import Navbar from './components/layouts/Navbar'
@@ -23,7 +23,7 @@ function App() {
                 <Route path='/vacinas' element={<Vacinas />} />
                 <Route path='/campanhas' element={<Campanhas />} />
                 <Route path='/doencasTransmissiveis' element={<DoencasTransmissiveis />} />
-                <Route path='/classificacaoEpidemiologica' element={<ClassificacaoEpidemiologica  />} />
+                <Route path='/epidemiologia' element={<Epidemiologia  />} />
                 <Route path='/catastrofes' element={<Catastrofes />} />
         </Routes>
         </Container>
