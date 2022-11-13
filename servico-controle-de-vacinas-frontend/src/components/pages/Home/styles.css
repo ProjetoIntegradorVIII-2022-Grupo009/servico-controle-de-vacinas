@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.contents{
+    margin: 2px;
+    height: 40vh;
+    width: 75vw;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.navigations{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 0px solid #042352;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s
+}
+
+.bar:hover {
+    background-color: #042352;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+    
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+#titulo_banner1:checked ~ .s1{
+    margin-left: 0;
+}
+.banner-responsivo-titulo {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 140px;
+    left: 50%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0.05em #333;
+    transform: translate(-50%, -50%);
+  }
+  
+.banner-responsivo-legenda {
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.5rem;
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0.05em #333;
+  }
+  
+  .button1 {
+    background-color: #3a74b0; /* Azul escuro */
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    padding: 1px 1px;
+        text-align: center;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 10%;
+    min-width: 130px;
+    bottom: 10%;
+    left: 50%;
+    position: absolute;
+    box-shadow: 2px 2px 2px #333;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -200%);
+  }
+  .button1:hover {
+    background-color: #fff;
+    color: #00246c;
+    box-shadow: 2px 2px 3px #333;
+  }
+
+  iframe{
+    align-items: center;
+  }

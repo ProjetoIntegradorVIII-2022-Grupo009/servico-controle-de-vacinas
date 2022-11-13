@@ -8,7 +8,7 @@ function Footer() {
 
                     <div className="grid-8 footer_historia">
                         <h3>Nossa História</h3>
-                        <p>Buscando auxiliar a comunidade da cidade de Sorocaba a se manter informada sobre aspectos de saúde, e previnir contra as fake news, nos motivou a criar essa página. Conheça um pouco mais da nossa história na aba "Sobre".</p>
+                        <p>Estudantes do 5° ano de Engenharia de Computação da Univesp, buscando auxiliar a comunidade da cidade de Sorocaba/SP a se manter informada sobre aspectos de saúde, sempre com suas vacinas em dia e previnir contra fake news, foi o que nos motivou a criar essa página.</p>
                     </div>
 
                     <div className="grid-4 footer_contato">
@@ -23,7 +23,7 @@ function Footer() {
                     <div className="grid-4 footer_redes">
                         <h3>Agradecimentos</h3>
                         <ul>
-                            <li><p>Gostariamos de agradecer nossa tutora ...</p></li>
+                            <li><p>Gostariamos de agradecer nossa tutora, Yana Jorge Polizer Rocha, por todo o suporte e orientação durante a realização desse projeto.</p></li>
                         </ul>
                     </div>
 
