@@ -64,3 +64,15 @@
 .card-iframe-top {
     padding: 0;
 }
+
+.a {
+	list-style-type: disc;
+	}
+
+.b {
+	list-style-type: circle;
+	}
+
+.c {
+	list-style-type: square;
+	}
