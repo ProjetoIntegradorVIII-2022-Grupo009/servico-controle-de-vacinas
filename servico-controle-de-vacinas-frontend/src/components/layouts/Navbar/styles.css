@@ -12,11 +12,37 @@
   }
   
   .item{
-    margin-right: 1em;
+    margin-right: 1em; 
   }
   
   .navbar li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;        
   }
+
+  #im_login{  
+    float: right;
+    width:"200" height="200";
+    padding-left: 7cm;
+    }
+
+    h5 {
+      color: rgb(2, 0, 0);
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+      margin-left: -13,01px;
+    }
+ 
+    h6 {
+      color: rgb(2, 0, 0);
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+      margin-left: -20px;
+    }
+   
+
+
+  
   
