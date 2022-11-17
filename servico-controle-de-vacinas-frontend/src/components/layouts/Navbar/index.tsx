@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import painelCatastrofes from "../../../assets/img/Login.png"
+import login from "../../../assets/img/Login.png"
 import './styles.css'
 
 function Navbar() {
@@ -9,7 +9,7 @@ function Navbar() {
           
           <a href="login">
               <li className='item'>
-              <img src={painelCatastrofes} alt="login"/>
+              <img src={login} alt="login"/>
               </li>                           
                            
             <li className='item'>
@@ -18,7 +18,7 @@ function Navbar() {
           </a>                           
               
             <li className='item'>
-                <Link to='/home'>Home</Link>
+                <Link to='/'>Home</Link>
             </li>
             <li className='item'>
                 <Link to='/vacinas'>Vacinas</Link>

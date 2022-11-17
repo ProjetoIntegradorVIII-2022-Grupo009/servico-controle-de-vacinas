@@ -1,7 +1,9 @@
 function Cadastro() {
 return (
-    
-    <form className="row g-3">
+    <>
+    <br></br>
+    <br></br>
+    <form className="row g-3">    
     <div className="col-md-4">
       <label htmlFor="validationServer01" className="form-label">Nome<br/></label>
       <input type="text" className="form-control is-valid" id="validationServer01"
@@ -104,7 +106,12 @@ return (
       <button className="btn btn-primary" type="submit">Enviar</button>
     </div>
     <br></br>
+    <br></br>
+    <br></br> 
+    <br></br>
+    <br></br>
   </form>  
+  </>
 )
 }
 

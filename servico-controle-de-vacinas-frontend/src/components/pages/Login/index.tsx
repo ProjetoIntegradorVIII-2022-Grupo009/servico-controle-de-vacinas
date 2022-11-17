@@ -2,7 +2,12 @@ import './styles.css'
 
 function Login() {
   return (
-
+<>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 <div className='login'>
 <form className="row g-3">
   <div className="col-auto">
@@ -20,7 +25,11 @@ function Login() {
   </div>
 </form>
 </div>
-
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+</>
   )
 }
 
