@@ -1,0 +1,58 @@
+.titulo-DoencasTransmissiveis {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    color:  #08f8ec;
+    background-color: rgba(0, 0, 0, 0.418);
+    font-weight: bold;
+}
+
+.Config-Video{
+    align-items: center;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.backgroundimage img {
+    min-width: 100vw;
+    color: #fff !important;
+    margin: 0 3px 0 3px;
+}
+
+.backgroundimage {
+    display: flex;
+    justify-content: center;
+}
+
+.set-photo img{
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+}
+
+
+
+

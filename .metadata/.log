@@ -328,3 +328,29 @@ Caused by: java.io.IOException: Server returned HTTP response code: 500 for URL:
 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)
 	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)
 	... 14 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-17 18:27:53.649
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-17 18:27:53.651
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@56366140[org.springframework.tooling.boot.ls:1.38.0.202208110704(id=561)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-17 18:27:53.652
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-17 18:27:59.179
+!MESSAGE Boot LS startup time from start to initialized: 5524ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-17 18:28:01.648
+!MESSAGE executing callback sts4.classpath.CdhtpQum FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-17 18:28:01.651
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:177)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:148)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

@@ -2,7 +2,8 @@
     position: absolute;
     top: 160px;
     left: 300px;
-    color:  #3ea8fe;
+    color:  #08f8ec;
+    background-color: rgba(0, 0, 0, 0.418);
     font-weight: bold;
 }
 

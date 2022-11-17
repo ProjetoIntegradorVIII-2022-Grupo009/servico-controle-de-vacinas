@@ -511,3 +511,8 @@
 2022-11-17 18:15:22,908 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-11-17 18:15:22,913 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-17 18:15:22,913 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/reginagoncalves/Documents/DevTech_StartUp/Projetos/servico-controle-de-vacinas/sevico-controle-de-vacinas-backend/src/test/resources
+2022-11-17 18:27:53,626 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-17 18:27:53,628 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-17 18:27:53,633 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-17 18:27:53,637 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-17 18:27:53,637 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/reginagoncalves/Documents/DevTech_StartUp/Projetos/servico-controle-de-vacinas/sevico-controle-de-vacinas-backend/src/test/resources

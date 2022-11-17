@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #3ea8fe;
+    background-color: #35aabf;
     border-bottom: 1px solid #2b9dfa;
     padding: 1em;
     margin-bottom: 0;
@@ -9,6 +9,11 @@
     display: flex;
     list-style: none;
     align-items: center;
+    font-size: larger;
+    background-color: rgba(0, 255, 255, 0.199);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-radius: 20px;
   }
   
   .item{
@@ -16,8 +21,9 @@
   }
   
   .navbar li a {
-    color: #fff;
-    text-decoration: none;        
+    color: rgb(10, 1, 1);
+    text-decoration: none;
+    border-radius: 5px;     
   }
 
   #im_login{  

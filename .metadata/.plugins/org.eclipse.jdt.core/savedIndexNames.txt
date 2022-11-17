@@ -58,7 +58,6 @@ INDEX VERSION 1.131+/Users/reginagoncalves/Documents/DevTech_StartUp/Projetos/se
 50882515.index
 3167290753.index
 3650000525.index
-2542627752.index
 805864254.index
 856731671.index
 2903185426.index
