@@ -1,0 +1,87 @@
+package com.univespsalto2022piviiigrupo009.controledevacinas.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_vacinas")
+public class Vacina {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String name;
+	private String vaccine_name;
+	private Integer dose;
+	private Integer complement;
+	private String note;
+	private LocalDate date;
+			
+	public Vacina() {
+		 
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getVaccine_name() {
+		return vaccine_name;
+	}
+
+	public void setVaccine_name(String vaccine_name) {
+		this.vaccine_name = vaccine_name;
+	}
+
+	public Integer getDose() {
+		return dose;
+	}
+
+	public void setDose(Integer dose) {
+		this.dose = dose;
+	}
+
+	public Integer getComplement() {
+		return complement;
+	}
+
+	public void setComplement(Integer complement) {
+		this.complement = complement;
+	}
+
+	public String getNote() {
+		return note;
+	}
+
+	public void setNote(String note) {
+		this.note = note;
+	}
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+
+	
+	
+}

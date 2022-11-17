@@ -1,0 +1,10 @@
+IINSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Barry Allen',82,43,21753.0,'2022-05-06');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Logan',43,26,7362.0,'2022-05-03');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Anakin',54,23,10549.0,'2022-04-28');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Padme',125,84,13333.0,'2022-04-25');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Logan',44,26,7431.0,'2022-04-23');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Kal-El',46,25,21099.0,'2022-04-19');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Kal-El',42,28,7217.0,'2022-04-19');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Anakin',52,21,10107.0,'2022-04-18');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Padme',121,90,18174.0,'2022-04-17');
+INSERT INTO tb_vacinas(seller_name,visited,deals,amount,date) VALUES ('Logan',65,14,8095.0,'2022-04-12');

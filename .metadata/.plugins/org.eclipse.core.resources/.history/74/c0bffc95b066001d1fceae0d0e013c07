@@ -1,0 +1,1 @@
+INSERT INTO tb_vacinas(vacina_nome,dose,reforco,observacoes,data) VALUES ('Sarampo’,1,0,’nenhuma’,’2022-06-03');
