@@ -21,9 +21,9 @@ function Campanhas() {
                     <br></br>
                     <p>Para visualizar as campanhas disponíveis em sua cidade clique na opção abaixo:</p>
                     <h1 className="titulo-Campanhas">Campanhas</h1>
-                    <div class="dropdown">
-                        <button class="mainmenubtn">CIDADES</button>
-                        <div class="dropdown-child">
+                    <div className="dropdown">
+                        <button className="mainmenubtn">CIDADES</button>
+                        <div className="dropdown-child">
                             <a href="https://saude.sorocaba.sp.gov.br/">SOROCABA</a>
                             <a href="https://salto.sp.gov.br/category/secretaria-de-saude/">SALTO</a>
                             <a href="https://itu.sp.gov.br/saude/">ITU</a>
@@ -46,7 +46,7 @@ function Campanhas() {
                         <div className="container row">
                             <div className="col-12 col-md-6 col-lg-4 mb-2">
                                 <div className="card">
-                                <iframe  src="https://www.youtube.com/embed/khMs__hrgDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe  src="https://www.youtube.com/embed/khMs__hrgDI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div className="card-body">
                                         <h5 className="card-title">Campanha Poliomelite</h5>
                                         <p className="card-text">Lançamento da Campanha Nacional de Vacinação contra a Poliomielite e da Multivacinação.</p>
@@ -55,7 +55,7 @@ function Campanhas() {
                             </div>
                             <div className="col-12 col-md-6 col-lg-4 mb-2">
                                 <div className="card">
-                                <iframe src="https://www.youtube.com/embed/DLdoZm5F0Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/DLdoZm5F0Zs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div className="card-body">
                                         <h5 className="card-title">Campanha Influenza</h5>
                                         <p className="card-text">Governo de SP incentiva campanha de vacinação contra vírus influenza.</p>
@@ -64,7 +64,7 @@ function Campanhas() {
                             </div>
                             <div className="col-12 col-md-6 col-lg-4 mb-2">
                                 <div className="card">
-                                <iframe  src="https://www.youtube.com/embed/hzmqhmR1Q9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe  src="https://www.youtube.com/embed/hzmqhmR1Q9I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div className="card-body">
                                         <h5 className="card-title">Campanha de Prevenção Varíola dos Macacos</h5>
                                         <p className="card-text">Campanha Nacional de Prevenção à Varíola dos Macacos (2022).</p>
