@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #3ea8fe;
+    background-color: #35aabf;
     border-bottom: 1px solid #2b9dfa;
     padding: 1em;
     margin-bottom: 0;
@@ -9,14 +9,46 @@
     display: flex;
     list-style: none;
     align-items: center;
+    font-size: larger;
+    background-color: rgba(0, 255, 255, 0.199);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-radius: 20px;
   }
   
   .item{
-    margin-right: 1em;
+    margin-right: 1em; 
   }
   
   .navbar li a {
-    color: #fff;
+    color: rgb(10, 1, 1);
     text-decoration: none;
+    border-radius: 5px;     
   }
+
+  #im_login{  
+    float: right;
+    width:"200" height="200";
+    padding-left: 7cm;
+    }
+
+    h5 {
+      color: rgb(2, 0, 0);
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+      margin-left: -13,01px;
+    }
+ 
+    h6 {
+      color: rgb(2, 0, 0);
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+      margin-left: -20px;
+    }
+   
+
+
+  
   

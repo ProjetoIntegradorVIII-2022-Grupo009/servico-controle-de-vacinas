@@ -1,0 +1,137 @@
+
+
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    position: absolute;
+ 
+    }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.Menu_Selected{
+    left: auto;
+    font-size: 30.1px;
+    height: 122px;
+    
+}
+
+.titulo-Campanhas {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    color:  #08f8ec;
+    background-color: rgba(0, 0, 0, 0.418);
+    font-weight: bold;
+}
+
+.Config-Video{
+    align-items: center;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.backgroundimage img {
+    min-width: 100vw;
+    color: #fff !important;
+    margin: 0 3px 0 3px;
+}
+
+.backgroundimage {
+    display: flex;
+    justify-content: center;
+}
+
+.set-photo img{
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.card-title{
+    text-align: justify;
+    padding: 10px;  
+}
+
+.card-text {
+    text-align: justify;
+    padding: 10px;
+}
+
+.card {
+    max-width: 300px !important;
+    min-height: 400px;
+}
+
+.video9 {
+    display: inline-flex;
+}
+
+.card-iframe-top {
+    padding: 0;
+}
+
+.a {
+	list-style-type: disc;
+	}
+
+.b {
+	list-style-type: circle;
+	}
+
+.c {
+	list-style-type: square;
+	}
+
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+}
+
+
+
+

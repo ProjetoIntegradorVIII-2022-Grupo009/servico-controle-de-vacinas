@@ -10,6 +10,7 @@ import Epidemiologia from './components/pages/Epidemiologia'
 import Container from './components/layouts/Container'
 import Navbar from './components/layouts/Navbar'
 import Footer from './components/layouts/Footer'
+import Login from './components/pages/Login'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                 <Route path='/doencasTransmissiveis' element={<DoencasTransmissiveis />} />
                 <Route path='/epidemiologia' element={<Epidemiologia  />} />
                 <Route path='/catastrofes' element={<Catastrofes />} />
+                <Route path='/login' element={<Login />} />
         </Routes>
         </Container>
         <Footer />

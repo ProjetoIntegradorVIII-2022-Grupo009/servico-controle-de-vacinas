@@ -8,7 +8,7 @@
 .footer h3 {
 	font-size: 18px;
 	line-height: 25px;
-	color: #3ea8fe;
+	color: #08f8ec;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font-weight: bold;
@@ -19,7 +19,7 @@
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #3ea8fe;
+	background: #08f8ec;
 	margin: 6px 0 12px 0;
 }
 
@@ -39,9 +39,10 @@
 }
 
 .footer_redes ul li a {
-	border: 3px solid #3ea8fe;
+	border: 3px solid  #3ea8fe;
 	display: block;
 	padding: 10px;
+		
 }
 
 .footer_redes ul li a:hover {
@@ -50,6 +51,8 @@
 
 .copy {
 	width: 100%;
-	background: #3ea8fe;
+	background-color: #35aabf;
 	padding: 20px 0;
+	color: #000;
+	
 }

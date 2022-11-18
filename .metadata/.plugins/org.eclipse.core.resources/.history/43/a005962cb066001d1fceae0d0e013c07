@@ -1,0 +1,6 @@
+INSERT INTO tb_vacinas(vacina_nome,dose,reforco,observacoes,data) VALUES (‘Sarampo’,1,0,'nenhuma',’2022-06-16');
+INSERT INTO tb_vacinas(vacina_nome,dose,reforco,observacoes,data) VALUES (‘Sarampo’,0,1,'nenhuma',’2022-06-14');
+INSERT INTO tb_vacinas(vacina_nome,dose,reforco,observacoes,data) VALUES (‘Febre amarela’,1,0,'nenhuma',’2022-06-14');
+INSERT INTO tb_vacinas(vacina_nome,dose,reforco,observacoes,data) VALUES (‘Covid’,1,0,’Pfizer’,’2021-06-22’);
+INSERT INTO tb_vacinas(vacina_nome,dose,reforco,observacoes,data) VALUES (‘Covid’,2,0,’Pfizer’,'2022-09-14');
+INSERT INTO tb_vacinas(vacina_nome,dose,reforco,observacoes,data) VALUES (’Tétano’,1,0,'nenhuma',’2022-06-03');

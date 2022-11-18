@@ -1,0 +1,5 @@
+package com.univespsalto2022piviiigrupo009.controledevacinas.entities;
+
+public class Vacina {
+
+}

@@ -1,0 +1,10 @@
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Sarampo',1,null,'-','2022-05-06');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Rubéola',1,null,'-','2022-05-03');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Tétano',1,null,'-','2022-04-28');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Covid',1,null,'Pfizer','2022-04-25');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Covid',2,null,'Corona vírus','2022-04-23');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Covid',null,1,'Astrazeneca','2022-04-19');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Febre amarela',1,null,'-','2022-04-19');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Gripe',1,null,'nenhum','2022-04-18');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Paralisia infantil',1,null,'-','2022-04-17');
+INSERT INTO tb_vacinas(vaccine_name,dose,complement,note,date) VALUES ('Hepatite A',1,null,'-','2022-04-12');
